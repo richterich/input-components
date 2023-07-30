@@ -29,6 +29,7 @@ function resize (element) {
    */
   function pointerdown (event) {
     active = event.target;
+    element.classList.add('select-none');
     const rect = element.getBoundingClientRect();
 
     initialRect = {
@@ -46,6 +47,7 @@ function resize (element) {
     active = null;
     initialRect = null;
     initialPos = null;
+    element.classList.remove('select-none');
   }
 
   /**

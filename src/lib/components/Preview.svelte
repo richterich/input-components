@@ -1,4 +1,6 @@
 <script>
+	import { resize } from '$lib/utilities/resize';
+
 	/** @type {string}*/
 	export let name;
 	/** @type {string}*/
@@ -15,7 +17,7 @@
 			</div>
 			<div class="col-span-2 row-start-2 min-w-0">
 				<div class="mt-4 focus:outline-none">
-					<div id={`preview-${id}`} class="relative" style="height: auto; width: 1296px;">
+					<div id={`preview-${id}`} class="relative" style="height: auto;" use:resize>
 						<div
 							id={`preview-${id}`}
 							class="w-full overflow-hidden rounded-lg ring-1 ring-slate-900/10"

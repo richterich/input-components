@@ -3,10 +3,17 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			containers: {
+				'sm': '40rem',
+				'lg': '64rem',
+			},
+		}
 	},
 
-	plugins: []
+	plugins: [
+		require('@tailwindcss/container-queries'),
+	]
 };
 
 module.exports = config;

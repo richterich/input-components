@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Custom Inputs</title>
+	<title>Custom UI Components</title>
 </svelte:head>
 
 <div class="lg mx-auto max-w-[40rem] lg:max-w-none">

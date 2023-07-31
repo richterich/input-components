@@ -10,7 +10,7 @@
 <div class="lg mx-auto max-w-[40rem] lg:max-w-none">
 	<h1 class="text-base font-semibold leading-7 text-indigo-500">Components preview</h1>
 	<p class="mt-3 max-w-4xl text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-		Get a better idea of how our components work by exploring our live playground.
+		Explore these live samples to understand better how the components work.
 	</p>
 	<ol class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
 		<li class="flex">
@@ -24,9 +24,8 @@
 					</span>
 				</h2>
 				<p class="mt-2 text-sm leading-7 text-slate-600">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, laudantium. Placeat sit,
-					quia blanditiis et nam nesciunt ipsa accusantium sed, recusandae, veritatis facere saepe
-					voluptates!
+					Every component is a demo preview on the page, and you can even see what they look like at
+					different breakpoints by dragging the slider on the right.
 				</p>
 			</div>
 		</li>
@@ -35,12 +34,11 @@
 				<h2 class="flex items-center text-sm font-semibold leading-6">
 					<span class="text-indigo-500">Step 2</span>
 					<span class="ml-2 h-4 w-px bg-slate-300" />
-					<span class="ml-2 text-slate-900">Copy the Snippet</span>
+					<span class="ml-2 text-slate-900">Connect with me</span>
 				</h2>
 				<p class="mt-2 text-sm leading-7 text-slate-600">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, laudantium. Placeat sit,
-					quia blanditiis et nam nesciunt ipsa accusantium sed, recusandae, veritatis facere saepe
-					voluptates!
+					Click the "Contact" button to get in touch. Drop a message or share your details from
+					there. Feel free to contact me, and I'll get back to you as soon as possible!
 				</p>
 			</div>
 		</li>
@@ -49,12 +47,14 @@
 				<h2 class="flex items-center text-sm font-semibold leading-6">
 					<span class="text-indigo-500">Step 3</span>
 					<span class="ml-2 h-4 w-px bg-slate-300" />
-					<span class="ml-2 text-slate-900">Make it yours</span>
+					<span class="ml-2 text-slate-900">
+						<span class="xl:hidden">Make it yours</span>
+						<span class="hidden xl:inline">Bring it to your project</span>
+					</span>
 				</h2>
 				<p class="mt-2 text-sm leading-7 text-slate-600">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, laudantium. Placeat sit,
-					quia blanditiis et nam nesciunt ipsa accusantium sed, recusandae, veritatis facere saepe
-					voluptates!
+					All the components are constructed solely from Tailwind's utility classes. Adjusting
+					anything you want to fit your use case better is possible.
 				</p>
 			</div>
 		</li>

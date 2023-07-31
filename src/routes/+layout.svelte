@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<p>Header here...</p>
+	<p />
 </header>
 
 <main class="relative mx-auto mt-20 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -11,7 +11,7 @@
 </main>
 
 <footer>
-	<p>Copyright</p>
+	<p />
 </footer>
 
 <style lang="postcss">

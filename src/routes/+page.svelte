@@ -1,6 +1,7 @@
 <script>
 	import Preview from '$lib/components/Preview.svelte';
 	import StackedLists from '$lib/previews/StackedLists.svelte';
+	import Contact from '$lib/previews/Forms/Contact.svelte';
 </script>
 
 <svelte:head>
@@ -90,5 +91,8 @@
 <div class="space-y-24 pb-px">
 	<Preview id={'f8a7439724f5d82ce53d38ace8f35c17'} name={'Simple'}>
 		<StackedLists slot="preview-component" />
+	</Preview>
+	<Preview id={'284c9bd7e7a39d1efd45e051abffeed5'} name={'Simple Contact Form'}>
+		<Contact slot="preview-component" />
 	</Preview>
 </div>

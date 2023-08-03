@@ -89,7 +89,7 @@
 </div>
 <div class="my-20 h-px bg-slate-900/10" />
 <div class="space-y-24 pb-px">
-	<Preview id={'f8a7439724f5d82ce53d38ace8f35c17'} name={'Simple'}>
+	<Preview id={'b6c7cbb33850a374c9150437a7dc1416'} name={'Simple Stacked List'}>
 		<StackedLists slot="preview-component" />
 	</Preview>
 	<Preview id={'284c9bd7e7a39d1efd45e051abffeed5'} name={'Simple Contact Form'}>

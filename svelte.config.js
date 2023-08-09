@@ -13,6 +13,11 @@ const config = {
 		// paths: {
 		// 	base: dev ? '' : process.env.BASE_PATH
 		// }
+		alias: {
+			'$entities': './src/entities',
+			'$features': './src/features',
+			'$widgets': './src/widgets',
+		},
 	},
 
 	preprocess: [vitePreprocess({})]

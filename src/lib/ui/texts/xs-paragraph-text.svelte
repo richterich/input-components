@@ -1,10 +1,10 @@
 <script>
+	import { merge } from '$lib/utilities/merge-classes';
+
 	/** @type {string} */
 	export let text = '';
-	/** @type {boolean} */
-	export let semiBold = false;
-	/** @type {boolean} */
-	export let truncate = false;
+	/** @type {string} */
+	export let className = '';
 </script>
 
-<p class="text-xs leading-5 text-gray-500" class:font-semibold={semiBold} class:truncate>{text}</p>
+<p class={merge('text-xs leading-5 text-gray-500', className)}>{text}</p>

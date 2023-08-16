@@ -7,4 +7,4 @@
 	export let className = '';
 </script>
 
-<h2 class={merge('text-4xl font-extrabold text-gray-900', className)}>{heading}</h2>
+<h2 class={merge('text-4xl font-extrabold tracking-tight text-gray-900', className)}>{heading}</h2>
